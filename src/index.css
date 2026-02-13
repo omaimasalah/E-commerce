@@ -93,6 +93,10 @@ body {
 /* Header Start */
 
 #header {
+     position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 999; 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,10 +104,7 @@ body {
     background-color: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0 , 0 , 0 , 0.06);
 
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 999; 
+   
 }
 
 #navBar {
